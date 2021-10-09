@@ -17,13 +17,6 @@ include("includes/main.php");
 </a>
     </div>
     <!-- Main -->
-    <div class="wrapper">
-            <h1>Featured Collection<h1>
-            
-      </div>
-
-
-
     <div id="content" class="container"><!-- container Starts -->
 
     <div class="row"><!-- row Starts -->
@@ -64,8 +57,8 @@ include("includes/main.php");
           <div class="footer-nav__col footer-nav__col--contacts">
             <div class="footer-nav__heading">Contact details</div>
             <address class="address">
-            Head Office: Avenue Fashion.<br>
-            180-182 Regent Street, London.
+            Address: Adabakkam stationery.<br>
+            India
           </address>
             <div class="phone">
               Telephone:
@@ -109,15 +102,15 @@ include("includes/main.php");
         <div class="container clearfix">
 
           <div class="copyright">
-            &copy; <?php echo date("Y");?> Ecommerce Website-PHP&trade;
+            &copy; <?php echo date("Y");?> ADABAKKAM STATIONERY&trade;
           </div>
 
           <div class="developer">
-            Developed by Yasser Dalouzi
+            Developed by Code Breakers
           </div>
 
           <div class="designby">
-            Design by Yasser Dalouzi
+            Design by Code Breakers
           </div>
 
         </div>
