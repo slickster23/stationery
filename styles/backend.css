@@ -440,7 +440,7 @@ img {
 }
 
 .page-header__bottomline {
-  background-color: #f8f8f8
+  background-color: #000;
 }
 
 .page-header__bottomline .logo {
@@ -487,8 +487,8 @@ img {
   display: block;
   padding-top: 45px;
   padding-bottom: 53px;
-  font-size: 13px;
-  color: #222;
+  font-size: 18px;
+  color: #fff;
   text-transform: uppercase;
   text-decoration: none;
   -webkit-transition: color .3s;
@@ -502,8 +502,9 @@ img {
 .page-header__bottomline .main-nav .categories__link i {
   position: absolute;
   top: 63px;
-  left: -5px;
-  line-height: normal
+  left: -15px;
+  line-height: normal;
+  color: white;
 }
 
 .page-header__bottomline .main-nav .categories__link--active {

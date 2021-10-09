@@ -81,21 +81,14 @@ if(!isset($_SESSION['customer_email'])){
               </li>
 
             <li class="categories__item">
-              <a class="categories__link" href="#">
-                Womens
-               
-              </a>
-            </li>
-
-            <li class="categories__item">
               <a class="categories__link categories__link--active" href="shop.php">
                 Shop
               </a>
             </li>
 
             <li class="categories__item">
-              <a class="categories__link" href="localstore.php">
-                Local Stores
+              <a class="categories__link" href="#">
+                Exclusive Recycled Products
               </a>
             </li>
 
@@ -110,13 +103,13 @@ if(!isset($_SESSION['customer_email'])){
                     <div class="dropdown__heading">Account Settings</div>
                     <ul class="dropdown__items">
                       <li class="dropdown__item">
-                        <a href="#" class="dropdown__link">My Wishlist</a>
+                        <a href="my_wishlist.php" class="dropdown__link">Wishlist</a>
                       </li>
                       <li class="dropdown__item">
-                        <a href="#" class="dropdown__link">My Orders</a>
+                        <a href="my_orders.php" class="dropdown__link">My Orders</a>
                       </li>
                       <li class="dropdown__item">
-                        <a href="#" class="dropdown__link">View Shopping Cart</a>
+                        <a href="cart.php" class="dropdown__link">View Shopping Cart</a>
                       </li>
                     </ul>
                   </div>

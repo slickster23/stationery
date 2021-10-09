@@ -43,11 +43,26 @@ $about_desc = $row_about_us['about_desc'];
 
 ?>
 
-<h1> <?php echo $about_heading; ?> </h1>
+<h1> About Us: </h1>
 
-<p class="lead"> <?php echo $about_short_desc; ?> </p>
+<ul>
+  <li>Small scale startup in its nascent stage.</li>
+  <li>Your (virtual) next door neighbour store.</li>
+  <li>Primarily focused on delivering </li>
+  <ul>
+    <li>Regular Office supplies</li> 
+    <li>Home Office supplies</li> 
+    <li>School supplies</li> 
+  </ul>
+</ul>
 
-<p> <?php echo $about_desc; ?> </p>
+<h3>What Drives Us? </h3>
+<ul>
+  <li> We are not just your regular stationery store.</li>
+  <li> We drive to promote home made products with recycling as a core ideology.</li>
+  <li>We are in the process of reaching out to small scale businesses that are into paper and plastic recycling and delivering recycled products</li>
+
+</ul>
 
 </div><!-- box Ends -->
 
