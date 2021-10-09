@@ -81,13 +81,6 @@ if(!isset($_SESSION['customer_email'])){
               </li>
 
             <li class="categories__item">
-              <a class="categories__link" href="#">
-                Womens
-               
-              </a>
-            </li>
-
-            <li class="categories__item">
               <a class="categories__link categories__link--active" href="shop.php">
                 Shop
               </a>
