@@ -38,8 +38,7 @@ CREATE TABLE `about_us` (
 --
 
 INSERT INTO `about_us` (`about_id`, `about_heading`, `about_short_desc`, `about_desc`) VALUES
-(1, 'About Us - Our Story', '\r\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,\r\n', 'Rhone was the collective vision of a small group of weekday warriors. For years, we were frustrated by the lack of activewear designed for men and wanted something better. With that in mind, we set out to design premium apparel that is made for motion and engineered to endure.\r\n\r\nAdvanced materials and state of the art technology are combined with heritage craftsmanship to create a new standard in activewear. Every product tells a story of premium performance, reminding its wearer to push themselves physically without having to sacrifice comfort and style.\r\n\r\nBeyond our product offering, Rhone is founded on principles of progress and integrity. Just as we aim to become better as a company, we invite men everywhere to raise the bar and join us as we move Forever Forward.');
-
+(1, 'About Us - Our Story', 'ADAMBAKKAM STATIONERY , is your next door neighbour store. With over 8,000 everyday and specialist office products to choose from, we also promote home made products with recycling as a core ideology we think that you will enjoy shopping on our website.', 'We are small scale startup in its nascent stage, we are just your regular stationery store. Leveraging on our industry experience, we are engaged in trading a wide range of School, Office & Business Stationery Products. Products we offer and supply are well known for quality & authenticity. we drive to promote home made products with recycling as a core ideology. We are in process of reaching out to small scale businesses that are into paper and plastic recycling and delivering recycled products. We aim to offer the best value stationery online, so you can be sure of getting top quality items also which are at prices that can’t be beaten. Combined with our free next day delivery on orders over Rs.300/-, why go anywhere else for your stationery and office supplies!');
 -- --------------------------------------------------------
 
 --
@@ -63,8 +62,7 @@ CREATE TABLE `admins` (
 --
 
 INSERT INTO `admins` (`admin_id`, `admin_name`, `admin_email`, `admin_pass`, `admin_image`, `admin_contact`, `admin_country`, `admin_job`, `admin_about`) VALUES
-(2, 'Administrator', 'admin@mail.com', 'Password@123', 'user-profile-min.png', '7777775500', 'Morocco', 'Front-End Developer', ' Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical ');
-
+(2, 'Administrator', 'admin@mail.com', 'Password@123', 'user-profile-min.png', '7777775500', 'India', 'Front-End Developer', ' loremThe lorem ipsum gets its name from the Latin phrase Neque porro quisquam est qui');
 -- --------------------------------------------------------
 
 --
@@ -393,12 +391,12 @@ CREATE TABLE `product_categories` (
 --
 
 INSERT INTO `product_categories` (`p_cat_id`, `p_cat_title`, `p_cat_top`, `p_cat_image`) VALUES
-(4, 'Coats', 'no', 'coaticn.png'),
-(5, 'T-Shirts', 'no', 'tshirticn.png'),
-(6, 'Sweater', 'no', 'sweatericn.png'),
-(7, 'jackets', 'yes', 'jacketicn.png'),
-(8, 'Sneakers', 'yes', 'sneakericn.png'),
-(9, 'Trousers', 'no', 'trousericn.png');
+(4, 'Apsara Pencils', 'yes', 'coaticn.png'),
+(5, 'Pilot pens', 'yes', 'tshirticn.png'),
+(6, 'fountain Pens', 'no', 'sweatericn.png'),
+(7, 'Doms colors', 'yes', 'jacketicn.png'),
+(8, 'Scissors', 'no', 'sneakericn.png'),
+(9, 'Natraj Pencils', 'no', 'trousericn.png');
 
 -- --------------------------------------------------------
 
