@@ -102,7 +102,7 @@ include("includes/main.php");
         <div class="container clearfix">
 
           <div class="copyright">
-            &copy; <?php echo date("Y");?> ADABAKKAM STATIONERY&trade;
+            &copy; <?php echo date("Y");?> ADABAKKAM STATIONERY &trade;
           </div>
 
           <div class="developer">
